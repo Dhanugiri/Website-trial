@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Sale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            max-width: 900px;
+            background: #fff;
+            margin: 40px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .product-img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .product-title {
+            font-size: 28px;
+            margin: 20px 0 10px;
+            font-weight: bold;
+        }
+        .price {
+            font-size: 24px;
+            color: #d10000;
+            margin-bottom: 15px;
+        }
+        .old-price {
+            text-decoration: line-through;
+            color: #777;
+            margin-left: 10px;
+            font-size: 18px;
+        }
+        .description {
+            font-size: 18px;
+            margin: 20px 0;
+        }
+        .buy-btn {
+            display: inline-block;
+            background: #28a745;
+            color: #fff;
+            padding: 12px 25px;
+            font-size: 18px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+        .buy-btn:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <img width="200px" height="250px" src="productimg.jpg">
+
+    <h1 class="product-title">Sample Product Name</h1>
+
+    <div class="price">
+        $29.99 <span class="old-price">$49.99</span>
+    </div>
+
+    <p class="description">
+        This is a short description of the product. Highlight features, benefits, 
+        and reasons to buy. Make it appealing for customers.
+    </p>
+
+    <a href="#" class="buy-btn">Buy Now</a>
+</div>
+
+</body>
+</html>
